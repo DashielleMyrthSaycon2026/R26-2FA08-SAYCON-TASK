@@ -11,4 +11,9 @@ day_ = input("Day: ")
 full_name = first_name + "" + last_name
 date_string = f"{year_} {month_} {day_}"
 
+print("Student Name:", first_name.capitalize(), last_name.capitalize())
+print("Student Code:", first_name.upper(), last_name.upper())
+print("Section:", section_.upper())
+print("Student's Favorite Subject:", fav_sub.title())
+print("Character Count:", len(full_name))   
 
